@@ -1,4 +1,4 @@
-# LAB2 - Serial Code in VHDL (Synchronous Process)
+# Serial Code in VHDL (Synchronous Process)
 
 ## Overview
 
