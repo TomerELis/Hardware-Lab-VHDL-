@@ -3,6 +3,7 @@
 ## Overview
 
 This lab focuses on implementing a serial counter system in VHDL, using a synchronous process. The system counts numbers based on a given upper bound and supports repeating the count cycle upon completion.
+
 ---
 
 
