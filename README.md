@@ -3,8 +3,6 @@
 ## Overview
 
 This lab focuses on implementing a serial counter system in VHDL, using a synchronous process. The system counts numbers based on a given upper bound and supports repeating the count cycle upon completion.
-
-![slowfast2](https://github.com/user-attachments/assets/08dbb6b8-5f7a-4beb-828b-c3e5166a4ffe)
 ---
 
 
@@ -15,6 +13,7 @@ The system consists of three main processes:
 1. **Fast Counter** - Counts rapidly from 0 to the current value of the Slow Counter.
 2. **Slow Counter** - Increments when the Fast Counter reaches its current count.
 3. **Control Process** - Manages the counting behavior, including start, freeze, and reset.
+![slowfast2](https://github.com/user-attachments/assets/08dbb6b8-5f7a-4beb-828b-c3e5166a4ffe)
 
 The counting process continues until both counters reach the specified upper bound. If the `repeat` flag is set, the system restarts counting from zero.
 
